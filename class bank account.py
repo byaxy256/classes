@@ -38,16 +38,16 @@ class BankAccount:
         print(f"Current Balance: {self.balance}")
 
 # Example usage
-account1 = BankAccount("John Doe")
+account1 = BankAccount("Mark Peter")
 
 # Display initial account info
 account1.display_account_info()
 
 # Deposit some money
-account1.deposit(500)
+account1.deposit(5000000)
 
 # Withdraw some money
-account1.withdraw(200)
+account1.withdraw(2000000)
 
 # Apply interest
 account1.apply_interest()
